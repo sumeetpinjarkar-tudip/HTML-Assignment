@@ -22,9 +22,9 @@ function Person(first, last) {
 
 var p1 = new Person("John", "Doe");
 var p2 = new Person("Sally", "Rally");
-str1=null;
-str2="";
-str3="Non Empty String";
+var str1=null;
+var str2="";
+var str3="Non Empty String";
 document.getElementById("name").innerHTML = "Full Name: "+p1.name();
 document.getElementById("name").style.color="blue";
 document.getElementById("empty").innerHTML = "For null String isEmpty = " + p1.isEmpty(str1) + "<br>For Empty String isEmpty = " + p1.isEmpty(str2) + "<br>For Non Empty String isEmpty = " + p1.isEmpty(str3);
